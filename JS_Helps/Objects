@@ -1,0 +1,42 @@
+- OBJECT METHODS
+const person = {
+    name: "Leonardo",
+    shirt: "white"
+    };
+
+-> console.log(person.name) -> Leonardo
+-> console.log(person["shirt"]) -> white
+
+** assign object/add to object(dict)
+-> person.phone = '1-22-333-4444'
+=> console.log(person.phone) -> 1-22-333-4444
+
+*EXAMPLE
+* create function, that func create object
+const introducer = (name, shird) => {
+    const person = {
+        name: name,
+        shirt: shird
+        assets: 100000,
+        liabilities: 50000,
+        netWorth: function () {
+            return THIS(this).assets - THIS(this).liabilities -> this. get from person information
+            }
+        };
+    const intro = `Hi, my name is ${person.name} and i have
+        ${person.shirt} shirt, my net worth is $${person.netWorth()}}` -> netWorth, without () will print all function
+                                                                          with () will print only result
+    return intro;
+    }
+console.log(introducer('Roburt', 'black')
+
+
+  * Objects and classes
+
+const cat = {name: 'Tom', age: 5}
+
+Object.keys(cat); // [ 'name', 'age' ]
+
+Object.values(cat; // [Tom, 5 ]
+
+Object.entries(cat); // [[name, Tom] [age, 5]]
