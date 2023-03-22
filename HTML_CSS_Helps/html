@@ -1,0 +1,36 @@
+HTML
+
+# add script to html
+-> <script src="script_name.js"></script>
+
+# add style to html
+-> <link href="style_name.css" rel="stylesheet" type="text/css">
+
+#add label and input to html
+-> <label for=""id_name">"Text here"</label>
+-> <input type="what type text we enter here" id="where to add this text"<br><br>
+
+#add button to html
+-> <button onclick="script_name()>"Some text"</button><br><br>
+<div id='result'></div>
+
+#add image to html
+-> <img scr="image_name.jpg"> => can set "width/height" <img scr="name" width="250" height="200">
+If image can show on display we can print a message => <img src="name" alt="black gun"
+
+#declare language of page
+<html lang="en">
+
+#Title attribute
+<p title="I'm a tooltip"> Enter some text here.</p> => when mouse is on text will show "title text"
+
+* Paragraphs <p>
+
+-> The browser will automatically remove any extra spaces and lines when the page is displayed
+
+-> horizontal rules (make line) <hr>
+-> break lines <br>
+If we use <br> in between <p> text will separate it
+
+<pre> Element
+-> text inside a <pre> element is displayed in a fixed-width font(Courier)
