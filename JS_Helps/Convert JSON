@@ -1,0 +1,14 @@
+Convert JSON to Object
+JSON_String = '{"name": "George", "age": 40, "town": "Sofia"}'
+-> let object = JSON.parse(JSON_String) = .parse
+
+Convert Object to JSON
+
+let object = {
+        f_name = "Roburt",
+        l_name = "Sulev",
+        age = 27
+}
+
+=> console.log(JSON.stringify(object)); =>
+'{"f_name": "Roburt", "l_name": "Sulev", "age": 27}'

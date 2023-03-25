@@ -24,7 +24,7 @@ If image can show on display we can print a message => <img src="name" alt="blac
 #Title attribute
 <p title="I'm a tooltip"> Enter some text here.</p> => when mouse is on text will show "title text"
 
-* Paragraphs <p>
+# Paragraphs <p>
 
 -> The browser will automatically remove any extra spaces and lines when the page is displayed
 
